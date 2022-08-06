@@ -18,21 +18,6 @@ const onSubmit = async values => {
 
 const App = () => (
   <Styles>
-    <h1>🏁 React Final Form</h1>
-    <h2>Credit Card Example</h2>
-    <a href="https://github.com/erikras/react-final-form#-react-final-form">
-      Read Docs
-    </a>
-    <p>
-      This example demonstrates how to use the amazing{' '}
-      <a
-        href="https://github.com/amarofashion/react-credit-cards"
-        target="_blank"
-      >
-        React Credit Cards
-      </a>{' '}
-      library with your form.
-    </p>
     <Form
       onSubmit={onSubmit}
       render={({
